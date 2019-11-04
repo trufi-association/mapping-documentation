@@ -2,7 +2,7 @@
 
 ## Install tool for mapping bus routes
 
-The tool we're going to install enables easy mapping of bus routes in developing countries. Of course the tool can be used in developed countries too. The tool we're going to install place an important part in our mission to map public transportations and in raising communities to take care of it. This tutorial assumes that you have JOSM set up and working.
+The tool we're going to install enables easy mapping of bus routes in developing countries. Of course the tool can be used in developed countries too. The tool we're going to install plays an important part in our mission to map public transportations and in raising communities to take care of it. This tutorial assumes that you have JOSM set up and working.
 
 1. Download the tool from [here](https://drive.google.com/file/d/10MxY_UUwGgakber1oDKCq-j4WJ2nELLQ/view) by clicking on the download button ![](googledrive-download-icon.png)
 
