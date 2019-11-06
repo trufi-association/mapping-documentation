@@ -1140,41 +1140,19 @@ pre[class*="language-"] {
 </head>
 <body>
   <article class="markdown-body">
-  <h1 class="atx" id="how-to">How to</h1>
-<h2 class="atx" id="install-tool-for-mapping-bus-routes">Install tool for mapping bus routes</h2>
-<p>The tool we're going to install enables easy mapping of bus routes in developing countries. Of course the tool can be used in developed countries too. The tool we're going to install plays an important part in our mission to map public transportations and in raising communities to take care of it. This tutorial assumes that you have JOSM set up and working and that you have got the configuration file (<code>.xml</code>) from your community.</p>
-<ol>
-<li><p>Be sure that you have the tool (the configuration file with extension <code>.xml</code>) your community uses. Ask them, if you do not have it. Normally they point you to this tutorial the file is for.</p>
-</li>
-<li><p>Open JOSM (this tutorial assumes that you have it already). <img alt="" src="josm-logo.png"></p>
-</li>
-<li><p>Click Edit --&gt; Preferences or click on the icon: <img alt="" src="josm-settings.png"></p>
-</li>
-<li><p>A window opens up and looks like this: <img alt="" src="josm-settings-overview.png"></p>
-</li>
-<li><p>Now we are going to activate the <em>Expert Mode</em> by ticking the checkbox on bottom left: <img alt="" src="josm-expertmode-toggle.png"></p>
-</li>
-<li><p>The window changes like this: <img alt="" src="josm-expert-settings-overview.png"></p>
-</li>
-<li><p>We click on the last icon in the bar to our left: <img alt="" src="josm-settings-configuration-icon.png"></p>
-</li>
-<li><p>The window changes to something like: <img alt="" src="josm-settings-configuration.png"></p>
-</li>
-<li><p>Now we click on <em>Read from file</em>: <img alt="" src="josm-settings-configuration-readfromfile.png"></p>
-</li>
-<li><p>Now you can select the file we've downloaded in <strong>step 1</strong> by navigating to its location and selecting it.</p>
-</li>
-<li><p>At the end of the import process just press <em>OK</em>: <img alt="" src="josm-settings-configuration-importsummary.png"></p>
-</li>
-<li><p>Now the window looks like this: <img alt="" src="josm-settings-configuration-overview-afterimport.png"></p>
-</li>
-<li><p>We close this window by clicking <em>OK</em>: <img alt="" src="josm-settings-okaybutton.png"></p>
-</li>
-<li><p>Now we have to restart JOSM by clicking on <em>Edit</em> --&gt; <em>Restart</em> or by pressing <em>Ctrl+Alt+Shif+J</em>: <img alt="" src="josm-restart.png"></p>
-</li>
-<li><p>It takes time to restart but we did it. We now have the tools we need. You might took notice of the changes in the GUI.</p>
-</li>
-</ol>
+  <h1 class="atx" id="documentation">Documentation</h1>
+<h2 class="atx" id="understanding-osm-relations">Understanding OSM relations</h2>
+<p>Relations use existing objects in the OpenStreetMap database to create new data out of existing data by connecting them. In OSM several types of relations exist e.g. the <a href="https://www.openstreetmap.org/relation/9373675">Relation 9373675</a> is a bus relation with <code>type=route</code>. </p>
+<hr>
+<p><img alt="" src="streets.png"></p>
+<p>We see here a bunch of streets with their names (the street --&gt; la calle). Streets are represented by one or more ways. On its own we cannot get to know which bus line is on which street e.g. we do not know that the route of <em>Bus 101</em> uses the streets  <em>Avenida Republica</em> and <em>Avenida Oquendo</em>. This is where relations come in. Relations allow us to connect streets to a route so we know exactly which bus drives in which street.</p>
+<p><img alt="" src="busroute.png"></p>
+<p>The orange line shows the route <em>Bus 101</em> is driving. What do we now is adding this information to OSM. </p>
+<p><img alt="" src="connected-streets.png"></p>
+<p>We see a small part of the bus relation here. And everything that is part of the relation is marked red. That means all streets (ways) that are marked red actually belong to the relation: We connected the street <em>Avenida Republica</em> with the street <em>Avenida Oquenda</em> in our relation. So a relation is basically a set of nodes and ways in a specified order and describes a high level feature (e.g. bus route) by just combining existing data.</p>
+<p><img alt="" src="relation-street-list.png"></p>
+<p>JOSM can show us the members (streets) of the relation not just graphical but also tabular. The table shows an ordered list from top to bottom of the ways that are part of the relation.</p>
+<p><strong>Summary:</strong> Relations in OSM are high level feature that build something new (e.g. a bus route) upon existing OpenStreetMap data (e.g, streets (mapped ways)). So relations can be used to add bus routes and much more complexity and makes use of added infrastructure.</p>
 
   </article>
 </body>
