@@ -12,10 +12,10 @@ Documentation for communities along the Trufi Association stream. All documents 
 
 [Linking your OSM account with JOSM](oauth-josm/oauth-josm.md) - We link your own OSM account to JOSM so you are able to upload changes to the map from inside JOSM. _Some communities do not require you to follow this documentation because they have it already set up for you._
 
-### Working with JOSM
+### Prepare to add a relation to OSM
 
 [Understanding relations](understanding-relations/understanding-relations.md) - In order to map the infrastructure of public transportation systems we need to understand relations first. Graphics dominate here!
 
 [Adding bus stops or waiting positions for the passengers](adding-bus-stops/adding-bus-stops.md) - Documents how to map bus stops and waiting positions and explains the difference between them. _Some communities do not require you to map bus stops or the waiting positions. In some cases they do not require both mapping practises e.g. in cities without bus stops_
 
-
+[Split ways into one or two](split-ways/split-ways.md) - Documents how to split a way in cases where a relation does not follow the way till the end.
