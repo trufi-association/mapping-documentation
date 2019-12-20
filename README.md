@@ -19,3 +19,9 @@ Documentation for communities along the Trufi Association stream. All documents 
 [Adding bus stops or waiting positions for the passengers](adding-bus-stops/adding-bus-stops.md) - Documents how to map bus stops and waiting positions and explains the difference between them. _Some communities do not require you to map bus stops or the waiting positions. In some cases they do not require both mapping practises e.g. in cities without bus stops_
 
 [Split ways into one or two](split-ways/split-ways.md) - Documents how to split a way in cases where a relation does not follow the way till the end.
+
+## Add route to OSM
+
+[Mapping bus routes](mapping-routes/mapping-routes.md) - Here all comes together. This is the part why you're probably here. This covers how to map routes in JOSM to add to OpenStreetMap.
+
+
