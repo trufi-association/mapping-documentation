@@ -24,4 +24,6 @@ Documentation for communities along the Trufi Association stream. All documents 
 
 [Mapping bus routes](mapping-routes/mapping-routes.md) - Here all comes together. This is the part why you're probably here. This covers how to map routes in JOSM to add to OpenStreetMap.
 
+## JOSM user interface elements explained
 
+[Split ways into one or two](split-ways/split-ways.md) - Documents how to split a way in cases where a relation does not follow the way till the end.
