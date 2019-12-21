@@ -30,4 +30,4 @@ Documentation for communities along the Trufi Association stream. All documents 
 
 [About topbar entry _Tools_](josm-tools/josm-tools.md) - A quick overview of the available options you have when you select something in the editor to perform actions on.
 
-
+[Understanding the _Layers_ section shown on the right site of the editor](josm-editor-layers/josm-editor-layers.md) - A quick overview of the _Layers_ section of the JOSM editor. This is a very important tool.
