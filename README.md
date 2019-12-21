@@ -27,3 +27,7 @@ Documentation for communities along the Trufi Association stream. All documents 
 ## JOSM user interface elements explained
 
 [Split ways into one or two](split-ways/split-ways.md) - Documents how to split a way in cases where a relation does not follow the way till the end.
+
+[About topbar entry _Tools_](josm-tools/josm-tools.md) - A quick overview of the available options you have when you select something in the editor to perform actions on.
+
+
