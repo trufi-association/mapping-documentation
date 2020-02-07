@@ -2,6 +2,14 @@
 
 Documentation for communities along the Trufi Association stream. All documents should be easy to understand, involve some graphics and should be kept as short as possible and the images not to small.
 
+## Community managers!
+
+**JUST FOR COMMUNITY MANAGERS:** You should follow the guide [on the repository there](https://github.com/ValorNaram/routemapping_josmconfig) to set up a tool that makes it easier to map bus routes in JOSM. With this in hand the documentation here will be a lot more effective and more hassle free for your community.
+
+## Community!
+
+**THIS SECTION IS FOR THE COMMUNITY OR PEOPLE WORKING FOR THEM.**
+
 ## Content
 
 ### Preparing
@@ -26,8 +34,8 @@ Documentation for communities along the Trufi Association stream. All documents 
 
 ## JOSM user interface elements explained
 
-[Split ways into one or two](split-ways/split-ways.md) - Documents how to split a way in cases where a relation does not follow the way till the end.
+[Split ways into one or two](split-ways/split-ways.md) - Documents how to split a way in cases where a bus route does not follow the way till the end.
 
-[About topbar entry _Tools_](josm-tools/josm-tools.md) - A quick overview of the available options you have when you select something in the editor to perform actions on.
+[About topbar entry _Tools_](josm-tools/josm-tools.md) - An quick overview of the available options you have when you select something in the editor to perform actions on.
 
-[Understanding the _Layers_ section shown on the right site of the editor](josm-editor-layers/josm-editor-layers.md) - A quick overview of the _Layers_ section of the JOSM editor. This is a very important tool.
+[Understanding the _Layers_ section shown on the right site of the editor](josm-editor-layers/josm-editor-layers.md) - An quick overview of the _Layers_ section of the JOSM editor. This is a very important tool.
