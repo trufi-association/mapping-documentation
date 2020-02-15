@@ -6,13 +6,13 @@ Documentation for communities along the Trufi Association stream. All documents 
 
 **JUST FOR COMMUNITY MANAGERS:** You should follow the guide [on the repository there](https://github.com/ValorNaram/routemapping_josmconfig) to set up a tool that makes it easier to map bus routes in JOSM. With this in hand the documentation here will be a lot more effective and more hassle free for your community.
 
-## Community!
+## Community members!
 
 **THIS SECTION IS FOR THE COMMUNITY OR PEOPLE WORKING FOR THEM.**
 
-## Content
+### Content
 
-### Preparing
+#### Preparing
 
 [Installing JOSM on linux](installing-josm-on-linux/installing-josm-linux.md) - Documentation how to install Java and JOSM on linux.
 
@@ -20,7 +20,7 @@ Documentation for communities along the Trufi Association stream. All documents 
 
 [Linking your OSM account with JOSM](oauth-josm/oauth-josm.md) - We link your own OSM account to JOSM so you are able to upload changes to the map from inside JOSM. _Some communities do not require you to follow this documentation because they have it already set up for you._
 
-### Prepare to add a relation to OSM
+#### Prepare to add a relation to OSM
 
 [Understanding relations](understanding-relations/understanding-relations.md) - In order to map the infrastructure of public transportation systems we need to understand relations first. Graphics dominate here!
 
@@ -28,11 +28,11 @@ Documentation for communities along the Trufi Association stream. All documents 
 
 [Split ways into one or two](split-ways/split-ways.md) - Documents how to split a way in cases where a relation does not follow the way till the end.
 
-## Add route to OSM
+#### Add route to OSM
 
 [Mapping bus routes](mapping-routes/mapping-routes.md) - Here all comes together. This is the part why you're probably here. This covers how to map routes in JOSM to add to OpenStreetMap.
 
-## JOSM user interface elements explained
+#### JOSM user interface elements explained
 
 [Split ways into one or two](split-ways/split-ways.md) - Documents how to split a way in cases where a bus route does not follow the way till the end.
 
