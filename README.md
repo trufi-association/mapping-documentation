@@ -4,7 +4,7 @@ Documentation for communities along the Trufi Association stream. All documents 
 
 ## Community managers!
 
-**JUST FOR COMMUNITY MANAGERS:** You should follow the guide [on the repository there](https://github.com/ValorNaram/routemapping_josmconfig) to set up a tool that makes it easier to map bus routes in JOSM. With this in hand the documentation here will be a lot more effective and more hassle free for your community.
+**JUST FOR COMMUNITY MANAGERS:** You should follow the guide [on the repository there](https://github.com/trufi-association/routemapping_josmconfig) to set up a tool that makes it easier to map bus routes in JOSM. With this in hand the documentation here will be a lot more effective and more hassle free for your community.
 
 ## Community members!
 
