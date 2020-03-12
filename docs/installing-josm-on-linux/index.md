@@ -1,10 +1,10 @@
-# How to
+# How to install JOSM
 
 ## Installing JOSM on Linux
 
 JOSM is a desktop application which we use for adding public transport routes to OpenStreetMap. But JOSM (Java OpenStreetMap (editor)) is much more powerful and sometimes complicated too. We wrote a _[how to](../installing-mapping-tool/install-bus-routes-mapping-tool.md)_ for you that makes it more easy to use for mapping public transport routes. This documentation covers just the steps of installing JOSM. We do not start here to show you how to use it to map routes. This covers just the installation procedure on Linux.
 
-## Installing Java
+### Installing Java
 
 1. Open a terminal by pressing the _WINDOWS_ key on your keyboard and typing `terminal` in the searchbar. It depends on the desktop system and startmenu you use how the searchbar works in detail. You might have to activate it first to start typing.
 
@@ -40,7 +40,7 @@ JOSM is a desktop application which we use for adding public transport routes to
    
    - **ToDo:** _Add more Linux derivatives_
 
-## Installing JOSM
+### Installing JOSM
 
 At this point we do not need the Terminal anymore.
 

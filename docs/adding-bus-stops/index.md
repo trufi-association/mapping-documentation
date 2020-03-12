@@ -1,4 +1,4 @@
-# Documentation
+# Adding bus stops
 
 ## Adding bus stops and adding platform for waiting passengers
 

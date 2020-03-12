@@ -1,6 +1,6 @@
 # Mapping informal bus routes
 
-This tutorial shows how to add informal bus routes to OpenStreetMap. For this tutorial to be effective you need [JOSM installed](../installing-josm-on-linux/installing-josm-linux.md) and the [custom mapping tool](../installing-mapping-tool/install-bus-routes-mapping-tool.md) (when requirred by your community). In order to upload your changes to OSM you need also your JOSM installation [synced](../oauth-josm/oauth-josm.md) with your OpenStreetMap account.
+This tutorial shows how to add informal bus routes to OpenStreetMap. For this tutorial to be effective you need [JOSM installed](../installing-josm-on-linux/index.md) and the [custom mapping tool](../installing-mapping-tool/index.md) (when requirred by your community). In order to upload your changes to OSM you need also your JOSM installation [synced](../oauth-josm/index.md) with your OpenStreetMap account.
 
 ## Preparing our workplace
 
