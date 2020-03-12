@@ -1,0 +1,7 @@
+site_name: Mapping Routes
+site_author: Sören Reinecke alias Valor Naram
+
+theme: readthedocs
+
+markdown_extensions:
+ - admonition
