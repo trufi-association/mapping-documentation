@@ -14,7 +14,7 @@ and you wonder what it is all about. Here I will give you a quick overview.
 
 3. Then we have the following options depending our selection:
    
-   - **Split way**: Used to make two ways out of one way. This is useful when you add a route to OSM and a way is longer than the route follows it. Usually you want to split at the position where the darkred line goes its own way. (see picture above). See also my [dedicated tutorial](../split-ways/split-ways.md).
+   - **Split way**: Used to make two ways out of one way. This is useful when you add a route to OSM and a way is longer than the route follows it. Usually you want to split at the position where the darkred line goes its own way. (see picture above). See also my [dedicated tutorial](../split-ways/index.md).
    - **Combine way**: Used to make one way out of two ways. The opposite to the _Split way_ feature. For this feature to be effective you need two ways selected by holding down the SHIFT key and selecting them.
      - Unselected: ![](josm-editor-twoways.png)
      - Selected: ![](josm-editor-twowaysselected.png)
