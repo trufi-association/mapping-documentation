@@ -2,21 +2,21 @@
 
 Documentation for communities along the Trufi Association stream. All documents should be easy to understand, involve some graphics and should be kept as short as possible and the images not to small.
 
-## Community managers!
+## ~~Community managers!~~
 
-**JUST FOR COMMUNITY MANAGERS:** You should follow the guide [on the repository there](https://github.com/trufi-association/routemapping_josmconfig) to set up a tool that makes it easier to map bus routes in JOSM. With this in hand the documentation here will be a lot more effective and more hassle free for your community.
+~~**JUST FOR COMMUNITY MANAGERS:** You should follow the guide [on the repository there](https://github.com/trufi-association/routemapping_josmconfig) to set up a tool that makes it easier to map bus routes in JOSM. With this in hand the documentation here will be a lot more effective and more hassle free for your community.~~
 
-## Community members!
+## ~~Community members!~~
 
-**THIS SECTION IS FOR THE COMMUNITY OR PEOPLE WORKING FOR THEM.**
+~~**THIS SECTION IS FOR THE COMMUNITY OR PEOPLE WORKING FOR THEM.**~~
 
-### Content
+### ~~Content~~
 
 #### Preparing
 
 [Installing JOSM on linux](installing-josm-on-linux/index.md) - Documentation how to install Java and JOSM on linux.
 
-[Installing tool for easy mapping of public transportation systems](installing-mapping-tool/index.md) - How to set up the tool that allows you to map public transportation systems easily with JOSM. Simplifing JOSM. _Some communities do not require you to follow this documentation because they have their own approach._
+~~[Installing tool for easy mapping of public transportation systems](installing-mapping-tool/index.md) - How to set up the tool that allows you to map public transportation systems easily with JOSM. Simplifing JOSM. _Some communities do not require you to follow this documentation because they have their own approach._~~
 
 [Linking your OSM account with JOSM](oauth-josm/index.md) - We link your own OSM account to JOSM so you are able to upload changes to the map from inside JOSM. _Some communities do not require you to follow this documentation because they have it already set up for you._
 
