@@ -64,8 +64,8 @@ Press ALT+SHIFT+F1 to stop/start automatically downloading of data while moving 
 
 1. Select the line which is not the darkred one but which is aligned to it: ![](josm-editor-selectedstreet.png)
 2. We see not the whole line turns red. What is for us one line (the blue one) is in the eye~~s~~ of the computer not one. The line has been split on the position where _Calle Campinas_ crosses our selected line.
-3. ~~We want to create a route so we click on the line icon in the symbol bar right under the tobar:~~ ![](josm-symbolbar-busroute-old.png)We want to create a route so we click on *Presets* (in the topbar) --> *Transport* --> *Public Transport* --> *Public Transport Route (Bus)*: 
-   ![](josm-symbolbar-busroute-new.png)
+3. We want to create a route so we click on *Presets* (in the topbar) --> *Transport* --> *Public Transport* --> *Public Transport Route (Bus)*: 
+   ![](josm-symbolbar-busroute.png)
 
 1. A popup shows up prompting you for data you've received from your community. Type in the data in the corresponding fields and click _Okay_. A new window opens up and gives an overview: ![](josm-createrelation-overview.png)
 2. On the right site you see a list of all objects (streets) you've selected in the JOSM editor. On the left site you see a list of all objects (streets) already added to the relation. **Don't close that dialog, we need it!**
