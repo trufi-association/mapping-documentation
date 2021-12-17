@@ -1,4 +1,4 @@
-# Trufi Documentation
+# Mapping Bus Routes
 
 Documentation for communities along the Trufi Association stream. All documents should be easy to understand, involve some graphics and should be kept as short as possible and the images not to small.
 
