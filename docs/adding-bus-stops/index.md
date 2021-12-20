@@ -30,12 +30,12 @@ Skip this step when your community decided to just map the bus stop position on 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Bayview_trstwy.jpg/320px-Bayview_trstwy.jpg)
 
-1. In the map edit view click the _drawing node/way_ symbol (highlighted red in the picture): ![](josm-editor-addnote.png)
+1. In the map edit view click the _drawing node/way_ symbol (highlighted red in the picture): ![](josm-editor-addnote/out.png)
 
-2. Click on a position on the map where you want to create the node. Double click on the position on the map to add the note and to leave drawing mode so it looks like this (without the red circle around it): ![](josm-editor-nodeonmap.png)
+2. Click on a position on the map where you want to create the node. Double click on the position on the map to add the note and to leave drawing mode so it looks like this (without the red circle around it): ![](josm-editor-nodeonmap/out.png)
 
-3. Click on the _bus_ icon or go to _Presets_ --> _Public Transportation_ --> _Waiting plattform_ and a window opens that prompts you for the name of the bus stop (among other details depending on the configuration):![](josm-busstation-addname.png)
+3. Click on the _bus_ icon or go to _Presets_ --> _Public Transportation_ --> _Waiting plattform_ and a window opens that prompts you for the name of the bus stop (among other details depending on the configuration):![](josm-busstation-addname/out.png)
 
-4. Fill in the fields you can fill and then click _Apply Preset_ (highlighted yellow) to apply the preset and to make the editor screen draw you a bus symbol onto the map (without the red circle): ![](josm-editor-bussymbolonmap.png)
+4. Fill in the fields you can fill and then click _Apply Preset_ (highlighted yellow) to apply the preset and to make the editor screen draw you a bus symbol onto the map (without the red circle): ![](josm-editor-bussymbolonmap/out.png)
 
 5. Finish. Start mapping other waiting positions like this.

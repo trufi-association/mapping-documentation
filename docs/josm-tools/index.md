@@ -1,23 +1,23 @@
 # Topbar: _Tools_ in JOSM
 
-You might have seen![](josm-topbar-tools.png)
+You might have seen![](josm-topbar-tools/out.png)
 
 and you wonder what it is all about. Here I will give you a quick overview.
 
 ## Preparing so the utility is useful
 
-1. We need a way and a position to perform actions with. The selection will turn red like ![](josm-editor-selectway.png)
+1. We need a way and a position to perform actions with. The selection will turn red like ![](josm-editor-selectway/out.png)
 
     By holding down the SHIFT key and clicking on other ways you can select more than just one way. For some functions to be useful this is necessary.
 
-2. We click on _Tools_ in the topbar: ![](josm-topbar-tools.png)
+2. We click on _Tools_ in the topbar: ![](josm-topbar-tools/out.png)
 
 3. Then we have the following options depending our selection:
    
    - **Split way**: Used to make two ways out of one way. This is useful when you add a route to OSM and a way is longer than the route follows it. Usually you want to split at the position where the darkred line goes its own way. (see picture above). See also my [dedicated tutorial](../split-ways/index.md).
    - **Combine way**: Used to make one way out of two ways. The opposite to the _Split way_ feature. For this feature to be effective you need two ways selected by holding down the SHIFT key and selecting them.
-     - Unselected: ![](josm-editor-twoways.png)
-     - Selected: ![](josm-editor-twowaysselected.png)
+     - Unselected: ![](josm-editor-twoways/out.png)
+     - Selected: ![](josm-editor-twowaysselected/out.png)
    - **Reserve direction**: Used to reserve the direction of one or more ways. This just changes the technical direction how the data was entered (beginning to draw the way from left to right or backwards). Mappers use this tool just to make technical data more clean. This feature does not affect the interpretation of the data, it doesn't affect tags. **You likely don't need it.**
    - **Simplify way**: Used to remove unncessary nodes from a way. Technically a bunch of nodes connected to each other in a specified order represent a way. This is another option to make OSM data more beautiful, it does not affect the tags from the way itself. Nodes on a way usually don't have tags (are empty).
    - **Align nodes in a circle**: This function does what it says. This is another feature you rarely need.
