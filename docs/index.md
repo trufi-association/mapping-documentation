@@ -8,6 +8,8 @@ Documentation for communities along the Trufi Association stream. All documents 
 
 [Installing JOSM on linux](installing-josm-on-linux/index.md) - Documentation how to install Java and JOSM on linux.
 
+[Installing JOSM on Windows](installing-josm-on-windows/index.md) - Documentation how to install JOSM on Windows. **This requires Java to be installed as a prerequisite!**
+
 [Linking your OSM account with JOSM](oauth-josm/index.md) - We link your own OSM account to JOSM so you are able to upload changes to the map from inside JOSM. _Some communities do not require you to follow this documentation because they have it already set up for you._
 
 #### Prepare to add a relation to OSM
