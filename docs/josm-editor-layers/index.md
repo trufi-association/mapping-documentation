@@ -1,6 +1,6 @@
 # Explaining _Layers_ in JOSM editor
 
-![](josm-editor-layers.png)
+![](josm-editor-layers/out.png)
 
 You might have seen this before and you might wonder what is this for.
 

@@ -4,39 +4,39 @@ This tutorial shows how to add informal bus routes to OpenStreetMap. For this tu
 
 ## Preparing our workplace
 
-1. Open JOSM (this tutorial assumes that you have it already). ![](josm-logo.png)
+1. Open JOSM (this tutorial assumes that you have it already). ![](josm-logo/out.png)
 
-2. A window should pop up like ![](josm-startpage.png)
+2. A window should pop up like ![](josm-startpage/out.png)
 
-3. First we should load the data you received from your community. Click on _File_ in the topbar:![](josm-topbar.png)
+3. First we should load the data you received from your community. Click on _File_ in the topbar:![](josm-topbar/out.png)
 
-4. Then we click _Open_ in the menu: ![](josm-file-menu.png)
+4. Then we click _Open_ in the menu: ![](josm-file-menu/out.png)
 
-5. A dialog appear and prompts you to select the file you've received from your community. Go to the location where you saved the `*.geojson`, click on that file and then _Open_:![](josm-opendialog.png)
+5. A dialog appear and prompts you to select the file you've received from your community. Go to the location where you saved the `*.geojson`, click on that file and then _Open_:![](josm-opendialog/out.png)
 
-6. Wait for loading process to finish. Once finish the user interface changes significantly. What we see now is our editor: ![](josm-editor-overview.png)
+6. Wait for loading process to finish. Once finish the user interface changes significantly. What we see now is our editor: ![](josm-editor-overview/out.png)
 
-7. Before we can start mapping we need to prepare the editor and load OSM data in it. Let us load data from OSM first. Click on _File_ in the topbar again: ![](josm-topbar.png)
+7. Before we can start mapping we need to prepare the editor and load OSM data in it. Let us load data from OSM first. Click on _File_ in the topbar again: ![](josm-topbar/out.png)
 
-8. And then _Download data..._: ![](josm-file-menu-downloaddata.png)
+8. And then _Download data..._: ![](josm-file-menu-downloaddata/out.png)
 
-9. We begin to love popups. In this one we probably do not need to tweak the boundingbox you see in the displayed map because JOSM did this for us because we've loaded the `*.geojson` file: ![](josm-downloaddialog.png)
+9. We begin to love popups. In this one we probably do not need to tweak the boundingbox you see in the displayed map because JOSM did this for us because we've loaded the `*.geojson` file: ![](josm-downloaddialog/out.png)
 
 10. Click _Download as new layer_. If it says that the selected area is to big then resize it by returning to that dialog, click and drag the mouse over a smaller part of the previously selected area. Release the mouse to create a new bounding box. Repeat this step until the system is happy :)
 
-11. This looks more promising: ![](josm-editor-osmdataloaded.png)
+11. This looks more promising: ![](josm-editor-osmdataloaded/out.png)
 
 12. But we're not happy yet, aren't we? To make it even more beautiful we need to add the OSM tiles. We go to _Imagery_ in the topbar and then select _OpenStreetMap Carto (Standard)_. Beautiful, isn't it.
 
 13. Let us take a quick look on the _Layers_ section on the top right site of the editor.
     
-    ![](josm-editor-layers.png)
+    ![](josm-editor-layers/out.png)
     
     By the way: You can resize the sections by clicking on the respective boundaries and dragging them to the position of your desire.
 
-14. Right click on the entry with the file extension `.geojson` or `.json`. Then click _Convert to GPX layer_: ![](josm-editor-layers-togpx.png)
+14. Right click on the entry with the file extension `.geojson` or `.json`. Then click _Convert to GPX layer_: ![](josm-editor-layers-togpx/out.png)
 
-15. The name of the entry changed and looks like this: ![](josm-editor-layers-aftertogpx.png)
+15. The name of the entry changed and looks like this: ![](josm-editor-layers-aftertogpx/out.png)
 
 16. We right click on the entry again and select
     
@@ -46,7 +46,7 @@ This tutorial shows how to add informal bus routes to OpenStreetMap. For this tu
     
     - and _Precache imagery tiles along this track_ at last.
 
-17. Additionally we click on the entry again and select _Customize track drawing_ and a new popup shows up: ![](josm-layers-customizedrawing.png)
+17. Additionally we click on the entry again and select _Customize track drawing_ and a new popup shows up: ![](josm-layers-customizedrawing/out.png)
 
 18. In the textfield next to _Drawing width of GPX lines_ type in the width in px. I recommend typing in `5`. Then click _Okay_.
 
@@ -54,7 +54,7 @@ This tutorial shows how to add informal bus routes to OpenStreetMap. For this tu
     
     - End <-- Start
     
-    - ![](josm-editor-arrowrule.png)
+    - ![](josm-editor-arrowrule/out.png)
 
 ## Preparing OSM data along the route we want to add
 
@@ -62,33 +62,33 @@ Before we start we need to do some work on the OSM data itself. In the last imag
 
 Press ALT+SHIFT+F1 to stop/start automatically downloading of data while moving the map. Alternatively click on *File* in the topbar and then *Download OSM data continuously*. It's a toogle. When you move the map to a section where no data is available then toggle _Download OSM data continuously_ on. If you use the zoom function extensively then turn _Download OSM data continuously_ off.
 
-1. Select the line which is not the darkred one but which is aligned to it: ![](josm-editor-selectedstreet.png)
+1. Select the line which is not the darkred one but which is aligned to it: ![](josm-editor-selectedstreet/out.png)
 2. We see not the whole line turns red. What is for us one line (the blue one) is in the eye~~s~~ of the computer not one. The line has been split on the position where _Calle Campinas_ crosses our selected line.
 3. We want to create a route so we click on *Presets* (in the topbar) --> *Transport* --> *Public Transport* --> *Public Transport Route (Bus)*: 
-   ![](josm-symbolbar-busroute.png)
+   ![](josm-symbolbar-busroute/out.png)
 
-1. A popup shows up prompting you for data you've received from your community. Type in the data in the corresponding fields and click _Okay_. A new window opens up and gives an overview: ![](josm-createrelation-overview.png)
+1. A popup shows up prompting you for data you've received from your community. Type in the data in the corresponding fields and click _Okay_. A new window opens up and gives an overview: ![](josm-createrelation-overview/out.png)
 2. On the right site you see a list of all objects (streets) you've selected in the JOSM editor. On the left site you see a list of all objects (streets) already added to the relation. **Don't close that dialog, we need it!**
-3. Select other streets along the darkred line, go to the dialog again and click on the red highlighted entry where the last row of four rows in total is selected to add the selection to the route list on the right site.![](josm-createrelation-addafterlastmember.png)You can select more than one street by pressing and holding the key you use to start a new sentence with an upper letter. 
-4. Repeat step _6_ after you have the following situation: ![](josm-editor-splitwaysneeded.png)
+3. Select other streets along the darkred line, go to the dialog again and click on the red highlighted entry where the last row of four rows in total is selected to add the selection to the route list on the right site.![](josm-createrelation-addafterlastmember/out.png)You can select more than one street by pressing and holding the key you use to start a new sentence with an upper letter. 
+4. Repeat step _6_ after you have the following situation: ![](josm-editor-splitwaysneeded/out.png)
 5. _Newton, we've got a problem!_ What do we next is spliting the way. So we click on the map to deselect our selection. Be sure to add all streets except the street in question to the route like in step _6_.
-6. Select the street (way) in question. Zoom to the point where you need the split: ![](josm-editor-splitwaysneeded2.png)Zoomed in (cuted view):![](josm-editor-splitwaysneeded3.png)
+6. Select the street (way) in question. Zoom to the point where you need the split: ![](josm-editor-splitwaysneeded2/out.png)Zoomed in (cuted view):![](josm-editor-splitwaysneeded3/out.png)
 7. Select the street (here in blue).
-8. Hold down the key you use to write an upper letter at the beginning of a new sentence. Select the square (JOSM highlights it yellow) while holding down the key.![](josm-editor-splitwaysneeded4.png)
+8. Hold down the key you use to write an upper letter at the beginning of a new sentence. Select the square (JOSM highlights it yellow) while holding down the key.![](josm-editor-splitwaysneeded4/out.png)
 9. In the topbar click on _Tools_ and then on _Split way_. Alternatively press key _P_. A dialog prompts you to decide which way segment should preserve history. Just ignore it and click _Okay_. Deselect everything by clicking on a free space on the map.
 10. Continue with step _6_ until the end of the darkred line.
 11. When you reached the end of the darkred line, it means you are almost done. Now we need to validate your work. For that we go to the dialog you should leave open the whole time while mapping.
 12. You should consult someone with validation if you're unfamilar with it. It's a critical part. Take a look on the different options the dialog offers you.
 
-    - Select an entry from the list on the left site. Right click on it and click _Zoom to_ to zoom to that object on the map. Use this method to repair objects having the following symbol or similiar:![](josm-createvalidation-routelist-error.png)
+    - Select an entry from the list on the left site. Right click on it and click _Zoom to_ to zoom to that object on the map. Use this method to repair objects having the following symbol or similiar:![](josm-createvalidation-routelist-error/out.png)
 
-    - Use the feature _Zoom to_ and the map to find missing ways (streets). and hover on the buttons of the highlighted red area next to the _selection_ table to get what they do with the selection.![](josm-createselection-validate.png)
+    - Use the feature _Zoom to_ and the map to find missing ways (streets). and hover on the buttons of the highlighted red area next to the _selection_ table to get what they do with the selection.![](josm-createselection-validate/out.png)
 
-    - Black is your friend :) Everything black in the validation line means that the data is okay.![](josm-createrelation-validate2.png)
+    - Black is your friend :) Everything black in the validation line means that the data is okay.![](josm-createrelation-validate2/out.png)
 
     - The first and last entry show always a red symbol in the validation line because one end is not connected to another way (street). This is logical. A bus route usually ends somewhere.
 13. In the route list dialog click _Okay_ to create that route. Do it when you think you're finish.
-14. Click on the _Upload icon_ in the symbolbar right under the topbar: ![](josm-symbolbar-upload.png)
+14. Click on the _Upload icon_ in the symbolbar right under the topbar: ![](josm-symbolbar-upload/out.png)
 15. Ignore the dialogue _Suspicious data found_ when it popups or fix the issues. Inform your community about that and tell them what you've edited.
-16. A new popup appears: ![](josm-uploaddialog.png)
+16. A new popup appears: ![](josm-uploaddialog/out.png)
 17. Fil in the information requested and then click _Upload Changes_ to finish upload process.
