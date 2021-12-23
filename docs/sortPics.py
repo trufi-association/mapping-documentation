@@ -7,7 +7,7 @@ def searchPNG(curdir):
 	global fileext
 	for entry in os.listdir(curdir):
 		print("Traversing '{}'...".format(os.path.join(curdir, entry)))
-		if entry.endswith(fileext):
+		if entry.endswith(fileext) and not entry == "out{}".format(fileext):
 			print("  creating new screenshot storage structure...")
 			dirname = os.path.join(curdir, entry.replace(fileext, ""))
 			if not os.path.exists(dirname):
