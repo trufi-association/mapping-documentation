@@ -5,10 +5,10 @@ Documentation for communities along the Trufi Association stream. All documents 
 
 ## Setting up your workspace
 
-[**Installing JOSM on linux**](installing-josm-on-linux/index.md)<br/>
+[**Installing JOSM on linux**](installing-josm/linux.md)<br/>
 Documentation how to install JOSM on linux.
 
-[**Installing JOSM on Windows**](installing-josm-on-windows/index.md)<br/>
+[**Installing JOSM on Windows**](installing-josm/windows.md)<br/>
 Documentation how to install JOSM on Windows.
 
 [**Linking your OSM account with JOSM**](oauth-josm/index.md)<br/>
