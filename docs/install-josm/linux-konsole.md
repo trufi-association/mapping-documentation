@@ -1,4 +1,4 @@
-# Install JOSM on linux
+# Installing JOSM on linux via command line
 
 ## Installing Java
 
