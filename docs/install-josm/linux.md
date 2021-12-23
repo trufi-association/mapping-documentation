@@ -35,4 +35,4 @@ flatpak install josm
 
 ## 3. Method: Using package management system (not recommended)
 
-The old-fashioned more complicated way of installing JOSM on linux is described [here](./linux-console.md). Use software centers and other graphical user interfaces as much as possible to do yourself a favour **and** only use the terminal/konsole if it's easier for faster to work with.
+The old-fashioned more complicated way of installing JOSM on linux is described [here](./linux-konsole.md). Use software centers and other graphical user interfaces as much as possible to do yourself a favour **and** only use the terminal/konsole if it's easier for faster to work with.
