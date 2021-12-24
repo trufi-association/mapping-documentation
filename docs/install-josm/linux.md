@@ -114,7 +114,7 @@ flatpak install josm
    apt install josm/$codename-backports
    ```
 
-## 4. Method: Install JOSM via `.jar`
+## 4. Method: Install JOSM via `.jar` (not recommended)
 
 Execute JOSM on linux using its `.jar`. But you need to install Java if you don't have already. We wrote a tutorial you can find [here](./java-jar.md) showing how to install Java and how to use a `.jar` file.
 
