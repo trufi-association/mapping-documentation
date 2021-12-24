@@ -6,7 +6,7 @@ Overview of the various method of installing JOSM on graphical linux operating s
 
 ## 1. Method: Install using Flatpak (recommended)
 
-[Installing using Flatpak](https://flathub.org/apps/details/org.openstreetmap.josm) (external link) is our recommended installation method which is equal across most linux variants. But you can also use the graphical software center installed or via the command
+[Installing using Flatpak](https://flathub.org/apps/details/org.openstreetmap.josm) (external link) is our recommended installation method which is equal across most linux variants. Execute the command
 
 ```bash
 flatpak install app/org.openstreetmap.josm/x86_64/stable -y
@@ -17,6 +17,8 @@ or use flatpaks' auto resolving functionality:
 ```bash
 flatpak install josm
 ```
+
+Alternatively you can use your software center if it's set up for Github.
 
 **Flatpak needs to be installed on your system for this to work. We recommend all JOSM users to install using this method because this is the smartest, safiest and easiest way of installing applications on Linux. So consider installing and setting up Flatpak if you don't already have.**
 
@@ -29,7 +31,7 @@ flatpak install josm
 
 ## 3. Method: Using package management system (not recommended)
 
-1. **Open a terminal and execute all following commands as root**
+**Open a terminal/konsole and execute all following commands as root**
 
 ### Ubuntu and derivatives
 
