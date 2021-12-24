@@ -29,8 +29,6 @@ flatpak install josm
 
 ## 3. Method: Using package management system (not recommended)
 
-The old-fashioned more complicated not recommended way of installing JOSM on linux is described [here](./linux-konsole.md). This tutorial makes extensive use of the terminal/konsole.
-
 1. **Open a terminal and execute all following commands as root**
 
 ### Ubuntu and derivatives
@@ -104,14 +102,19 @@ The old-fashioned more complicated not recommended way of installing JOSM on lin
    echo "deb http://deb.debian.org/debian $codename-backports main" > /etc/apt/sources.list.d/backports.list
    ```
 
-4. Update sources
+3. Update sources
 
    ```bash
    apt update
    ```
 
-5. Install JOSM from backports
+4. Install JOSM from backports
 
    ```bash
    apt install josm/$codename-backports
    ```
+
+## 4. Method: Install JOSM via `.jar`
+
+Execute JOSM on linux using its `.jar`. But you need to install Java if you don't have already. We wrote a tutorial you can find [here](./java-jar.md) showing how to install Java and how to use a `.jar` file.
+
