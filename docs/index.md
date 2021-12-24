@@ -11,6 +11,9 @@ Documentation how to install JOSM on linux.
 [**Installing JOSM on Windows**](install-josm/windows.md)<br/>
 Documentation how to install JOSM on Windows.
 
+[**Installing JOSM on Mac**](./install-josm/mac.md)<br/>
+Documentation how to install JOSM on Mac.
+
 [**Linking your OSM account with JOSM**](oauth-josm/index.md)<br/>
 We link your own OSM account to JOSM so you are able to upload changes to the map from inside JOSM.
 
