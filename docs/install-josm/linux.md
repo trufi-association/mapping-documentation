@@ -33,9 +33,7 @@ The old-fashioned more complicated not recommended way of installing JOSM on lin
 
 1. **Open a terminal and execute all following commands as root**
 
-### Debian and Ubuntu like systems
-
-*using APT* as package management system.
+### Ubuntu and derivatives
 
 1. Register the official JOSM repository
 
@@ -47,7 +45,7 @@ The old-fashioned more complicated not recommended way of installing JOSM on lin
    using `wget`
 
    ```bash
-   wget -q https://josm.openstreetmap.de/josm-apt.key -O- | sudo apt-key add -
+   wget -q https://josm.openstreetmap.de/josm-apt.key -O- | apt-key add -
    ```
 
    or using `curl`
@@ -84,10 +82,36 @@ The old-fashioned more complicated not recommended way of installing JOSM on lin
    zypper ar -f https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Leap_$version Application:Geo
    ```
 
-3. Install JOSM
+3. Install JOSM (not tested)
 
    ```bash
    zypper install josm
    ```
 
-   
+### Debian
+
+1. Get codename of your debian installation
+
+   ```bash
+   codename=`cat /etc/os-release | grep "DISTRIB_CODENAME"`
+   codename=${codename/DISTRIB_CODENAME=/}
+   codename=${codename//\"/}
+   ```
+
+2. Add backports repository
+
+   ```bash
+   echo "deb http://deb.debian.org/debian $codename-backports main" > /etc/apt/sources.list.d/backports.list
+   ```
+
+4. Update sources
+
+   ```bash
+   apt update
+   ```
+
+5. Install JOSM from backports
+
+   ```bash
+   apt install josm/$codename-backports
+   ```
