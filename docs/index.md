@@ -1,18 +1,17 @@
 # Mapping Bus Routes
 
-Documentation for communities along the Trufi Association stream. All documents should be easy to understand, involve some graphics and should be kept as short as possible and the images not to small.
+This tutorial collection curated by Trufi Association e.V. aims to make bus route mapping for OpenStreetMap easier using J0SM to enable communities to document their public transportation systems digitally.
 
 
 ## Setting up your workspace
 
-[**Installing JOSM on linux**](install-josm/linux.md)<br/>
-Documentation how to install JOSM on linux.
+JOSM is a desktop application which we use for adding public transport routes to OpenStreetMap. But JOSM (Java OpenStreetMap (editor)) is much more powerful and sometimes complicated too.
 
-[**Installing JOSM on Windows**](install-josm/windows.md)<br/>
-Documentation how to install JOSM on Windows.
+[**Installing JOSM on linux**](install-josm/linux.md)
 
-[**Installing JOSM on Mac**](./install-josm/mac.md)<br/>
-Documentation how to install JOSM on Mac.
+[**Installing JOSM on Windows**](install-josm/windows.md)
+
+[**Installing JOSM on Mac**](./install-josm/mac.md)
 
 [**Linking your OSM account with JOSM**](oauth-josm/index.md)<br/>
 We link your own OSM account to JOSM so you are able to upload changes to the map from inside JOSM.
@@ -24,7 +23,6 @@ In order to map the infrastructure of public transportation systems we need to u
 
 [**Split ways into one or two**](split-ways/index.md)<br/>
 Documents how to split a way in cases where a bus route does not follow the way till the end.
-
 
 ## Routes on OSM
 
