@@ -121,5 +121,5 @@ Alternatively you can use your software center if it's set up for Github.
 
 ## 4. Method: Use .jar version of JOSM (not recommended)
 
-Execute JOSM on linux using its `.jar`. But you need to install Java if you don't have already. We wrote a tutorial you can find [here](./java-jar.md) showing how to install Java and how to use a `.jar` file in general.
+Execute JOSM on linux using its `.jar`. But you need to install Java if you don't have already. We wrote a tutorial you can find [here](./linux-java-jar.md) showing how to install Java and how to use a `.jar` file in general.
 
