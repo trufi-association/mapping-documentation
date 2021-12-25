@@ -22,18 +22,19 @@ Alternatively you can use your software center if it's set up for Github.
 
 **Flatpak needs to be installed on your system for this to work. We recommend all JOSM users to install using this method because this is the smartest, safiest and easiest way of installing applications on Linux. So consider installing and setting up Flatpak if you don't already have.**
 
-## 2. Method: Using our bash script (Debian systems only)
+## 2. Method: Using our bash script
 
-1. Install using our own script we wrote for Debian systems which you can download [here](./installJOSM.sh).
+1. Install using our own script we wrote with support of some linux systems which you can download [here](./installJOSM.sh).
 2. Save it somewhere on your disk e.g. *Downloads* folder.
 3. Flag is as an executable (right click on file --> *Properties* --> *Permissions* --> check *make it executable* or similiar)
 4. Execute it as the superuser (*root* user).
+4. After successfull execution you can remove that script.
 
 ## 3. Method: Using package management system (not recommended)
 
 **Open a terminal/konsole and execute all following commands as root**
 
-### Ubuntu and derivatives
+### Ubuntu, Debian and derivatives
 
 1. Register the official JOSM repository
 
@@ -79,16 +80,18 @@ Alternatively you can use your software center if it's set up for Github.
 2. Add Geo repository
 
    ```bash
-   zypper ar -f https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Leap_$version Application:Geo
+   zypper ar -f https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Leap_${version} Application:Geo
    ```
 
 3. Install JOSM (not tested)
 
    ```bash
-   zypper install josm
+   zypper in josm josm-fonts
    ```
 
 ### Debian
+
+**Use this only when the steps in "Ubuntu, Debian and derivatives" don't work for you.**
 
 1. Get codename of your debian installation
 
@@ -101,7 +104,7 @@ Alternatively you can use your software center if it's set up for Github.
 2. Add backports repository
 
    ```bash
-   echo "deb http://deb.debian.org/debian $codename-backports main" > /etc/apt/sources.list.d/backports.list
+   echo "deb http://deb.debian.org/debian ${codename}-backports main" > /etc/apt/sources.list.d/backports.list
    ```
 
 3. Update sources
@@ -113,10 +116,10 @@ Alternatively you can use your software center if it's set up for Github.
 4. Install JOSM from backports
 
    ```bash
-   apt install josm/$codename-backports
+   apt install josm/${codename}-backports
    ```
 
-## 4. Method: Install JOSM via `.jar` (not recommended)
+## 4. Method: Use .jar version of JOSM (not recommended)
 
-Execute JOSM on linux using its `.jar`. But you need to install Java if you don't have already. We wrote a tutorial you can find [here](./java-jar.md) showing how to install Java and how to use a `.jar` file.
+Execute JOSM on linux using its `.jar`. But you need to install Java if you don't have already. We wrote a tutorial you can find [here](./java-jar.md) showing how to install Java and how to use a `.jar` file in general.
 

@@ -30,14 +30,38 @@ use_apt() {
 	apt update
 
 	echo -e "\033[0;33mInstalling JOSM on your system ...\033[0;m"
-
 	# install josm-tested
 	apt install josm -y
 }
 
-if ! [ -z $(which flatpakus) ];
+use_zypper() {
+	echo -e "\033[0;33mInstalling JOSM via Zypper (OpenSuse)...\033[0;m"
+	
+	echo -e "\033[0;33mGet version of OpenSuse...\033[0;m"
+	local version=`cat /etc/os-release | grep "VERSION_ID"`
+	version=${version/VERSION_ID=/}
+	version=${version//\"/}
+	
+	echo -e "\033[0;33mAdd depot 'Geo' which hosts applications working with spatial data...\033[0;m"
+	zypper ar -f https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Leap_${version} Application:Geo
+	
+	echo -e "\033[0;33mInstalling JOSM...\033[0;m"
+	zypper in josm josm-fonts
+
+
+}
+
+if ! [ -z $(which flatpak) ];
 then
-	use_flatpak # flatpak is installed, use it
-else
+	use_flatpak # best choice
+elif ! [ -z $(which brew) ];
+then
+	echo -e "\033[0;33mInstalling JOSM via Homebrew...\033[0;m"
+	brew install --cask josm # best choice for Apple users
+elif ! [ -z $(which apt) ];
+then
 	use_apt
+elif ! [ -z $(which zypper) ];
+then
+	use_zypper
 fi;
