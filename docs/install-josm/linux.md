@@ -24,7 +24,7 @@ Alternatively you can use your software center if it's set up for Github.
 
 ## 2. Method: Using our bash script
 
-1. Install using our own script we wrote with support of some linux systems which you can download [here](./installJOSM.sh) (external link to our website).
+1. Install using our own script we wrote with support of some linux systems which you can download [here](https://trufi-association.org/installJOSM.sh) (external link to our website).
 2. Save it somewhere on your disk e.g. *Downloads* folder.
 3. Flag is as an executable (right click on file --> *Properties* --> *Permissions* --> check *make it executable* or similiar)
 4. Execute it as the superuser (*root* user).
