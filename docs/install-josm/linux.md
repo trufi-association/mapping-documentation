@@ -38,56 +38,56 @@ Alternatively you can use your software center if it's set up for Flatpak.
 
 1. Register the official JOSM repository
 
-   ```bash
-   echo "deb https://josm.openstreetmap.de/apt alldist universe" > /etc/apt/sources.list.d/josm.list
-   ```
+```bash
+echo "deb https://josm.openstreetmap.de/apt alldist universe" > /etc/apt/sources.list.d/josm.list
+```
    
 2. Register the public key of that repository
    using `wget`
 
-   ```bash
-   wget -q https://josm.openstreetmap.de/josm-apt.key -O- > /etc/apt/trusted.gpg.d/josm.gpg
-   ```
+```bash
+wget -q https://josm.openstreetmap.de/josm-apt.key -O- > /etc/apt/trusted.gpg.d/josm.gpg
+```
 
    or using `curl`
 
-   ```bash
-   curl https://josm.openstreetmap.de/josm-apt.key > /etc/apt/trusted.gpg.d/josm.gpg
-   ```
+```bash
+curl https://josm.openstreetmap.de/josm-apt.key > /etc/apt/trusted.gpg.d/josm.gpg
+```
 
 3. Refresh the sources
 
-   ```bash
-   sudo apt update
-   ```
+```bash
+sudo apt update
+```
 
 4. Install JOSM
 
-   ```bash
-   sudo apt install josm
-   ```
+```bash
+sudo apt install josm
+```
 
 ### OpenSUSE
 
 1. Grab the version
 
-   ```bash
-   version=`cat /etc/os-release | grep "VERSION_ID"`
-   version=${version/VERSION_ID=/}
-   version=${version//\"/}
-   ```
+```bash
+version=`cat /etc/os-release | grep "VERSION_ID"`
+version=${version/VERSION_ID=/}
+version=${version//\"/}
+```
 
 2. Add Geo repository
 
-   ```bash
-   zypper ar -f https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Leap_${version} Application:Geo
-   ```
+```bash
+zypper ar -f https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Leap_${version} Application:Geo
+```
 
 3. Install JOSM
 
-   ```bash
-   zypper install josm josm-fonts
-   ```
+```bash
+zypper install josm josm-fonts
+```
 
 ### Debian
 
@@ -95,29 +95,29 @@ Alternatively you can use your software center if it's set up for Flatpak.
 
 1. Get codename of your debian installation
 
-   ```bash
-   codename=`cat /etc/os-release | grep "VERSION_CODENAME"`
-   codename=${codename/VERSION_CODENAME=/}
-   codename=${codename//\"/}
-   ```
+```bash
+codename=`cat /etc/os-release | grep "VERSION_CODENAME"`
+codename=${codename/VERSION_CODENAME=/}
+codename=${codename//\"/}
+```
 
 2. Add backports repository
 
-   ```bash
-   echo "deb http://deb.debian.org/debian ${codename}-backports main" > /etc/apt/sources.list.d/backports.list
-   ```
+```bash
+echo "deb http://deb.debian.org/debian ${codename}-backports main" > /etc/apt/sources.list.d/backports.list
+```
 
 3. Update sources
 
-   ```bash
-   apt update
-   ```
+```bash
+apt update
+```
 
 4. Install JOSM from backports
 
-   ```bash
-   apt install josm/${codename}-backports
-   ```
+```bash
+apt install josm/${codename}-backports
+```
 
 ## 4. Method: Use .jar version of JOSM (not recommended)
 
