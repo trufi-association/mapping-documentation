@@ -21,7 +21,7 @@ Use this method if you **don't have** Homebrew installed, installation of Homebr
 Use this method if you **have** Java installed, installation of Java JRE on Mac is not a problem for you or JOSM is not your only application which depends on Java.
 
 1. Go to <https://josm.openstreetmap.de>
-2. Download [josm-tested.jar](https://videos.openstreetmap.de/kategorien/Basics/Changesets.mkv) (external link).
+2. Download [josm-tested.jar](https://josm.openstreetmap.de/josm-tested.jar) (external link).
    ![](./website-jar-download/out.png)
 3. Save it somewhere on your disk e.g. create a *Portable Apps* folder on your desktop and put that file in there. This way you also maintain a good structure in using portable apps.
 4. Execute JOSM by double clicking on its file.
