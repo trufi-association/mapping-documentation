@@ -1,6 +1,4 @@
-# Documentation
-
-## Understanding OSM relations
+# Understanding OSM relations
 
 Relations use existing objects in the OpenStreetMap database to create new data out of existing data by connecting them. In OSM several types of relations exist e.g. the [Relation 9373675](https://www.openstreetmap.org/relation/9373675) is a bus relation with `type=route`. 
 
