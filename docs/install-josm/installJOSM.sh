@@ -20,10 +20,10 @@ use_apt() {
 	echo -e "\033[0;33mAdding security key of official JOSM repository to your system ...\033[0;m"
 	if ! [ -z $(which wget) ];
 	then
-		wget -q -O "-" https://josm.openstreetmap.de/josm-apt.key | apt-key add -
+		wget -q https://josm.openstreetmap.de/josm-apt.key -O- > /etc/apt/trusted.gpg.d/josm.gpg
 	elif ! [ -z $(which curl) ];
 	then
-		curl https://josm.openstreetmap.de/josm-apt.key | apt-key add
+		curl https://josm.openstreetmap.de/josm-apt.key > /etc/apt/trusted.gpg.d/josm.gpg
 	fi
 	
 	echo -e "\033[0;33mUpdating software list ...\033[0;m"
@@ -41,12 +41,13 @@ use_zypper() {
 	local version=`cat /etc/os-release | grep "VERSION_ID"`
 	version=${version/VERSION_ID=/}
 	version=${version//\"/}
+	echo -e "\033[0;33mYou run OpenSuse version $version\033[0;m"
 	
 	echo -e "\033[0;33mAdd depot 'Geo' which hosts applications working with spatial data...\033[0;m"
 	zypper ar -f https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Leap_${version} Application:Geo
 	
 	echo -e "\033[0;33mInstalling JOSM...\033[0;m"
-	zypper in josm josm-fonts
+	zypper install josm josm-fonts
 
 
 }
@@ -57,7 +58,7 @@ then
 elif ! [ -z $(which brew) ];
 then
 	echo -e "\033[0;33mInstalling JOSM via Homebrew...\033[0;m"
-	brew install --cask josm # best choice for Apple users
+	brew install --cask josm # best choice for Apple users but not necessarily for Linux users but better than the regular package management systems and their repositories
 elif ! [ -z $(which apt) ];
 then
 	use_apt
@@ -65,3 +66,5 @@ elif ! [ -z $(which zypper) ];
 then
 	use_zypper
 fi;
+
+echo -e "\033[0;33mPlease try starting JOSM! If it does not work you need to follow the instructions of the other methods.\033[0;m"
