@@ -5,7 +5,12 @@ We will cover here how to install JOSM on Mac using various methods.
 ## 1. Method: Install JOSM via Homebrew
 
 1. Open a terminal
-2. Execute `brew install --cask josm` to install
+2. Execute
+```bash
+brew install --cask josm
+```
+
+to install
 
 ## 2 Method: Install JOSM using a package
 
