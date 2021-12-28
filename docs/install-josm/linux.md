@@ -36,54 +36,54 @@ Alternatively you can use your software center if it's set up for Flatpak.
 
 ### Ubuntu, Debian and derivatives
 
-1. Register the official JOSM repository
+1. Register the official JOSM repository  
 
-	```bash
+```bash
 echo "deb https://josm.openstreetmap.de/apt alldist universe" > /etc/apt/sources.list.d/josm.list
-	```
+```
    
 2. Register the public key of that repository<br/>
-using `wget`
+using `wget`  
 
-	```bash
+```bash
 wget -q https://josm.openstreetmap.de/josm-apt.key -O- > /etc/apt/trusted.gpg.d/josm.gpg
-	```
+```
 
-	or using `curl`
+or using `curl`  
 
-	```bash
+```bash
 curl https://josm.openstreetmap.de/josm-apt.key > /etc/apt/trusted.gpg.d/josm.gpg
-	```
+```
 
-3. Refresh the sources
+3. Refresh the sources  
 
-	```bash
+```bash
 sudo apt update
-	```
+```
 
-4. Install JOSM
+4. Install JOSM  
 
-	```bash
+```bash
 sudo apt install josm
-	```
+```
 
 ### OpenSUSE
 
-1. Grab the version
+1. Grab the version  
 
-	```bash
+```bash
 version=`cat /etc/os-release | grep "VERSION_ID"`
 version=${version/VERSION_ID=/}
 version=${version//\"/}
-	```
+```
 
-2. Add Geo repository
+2. Add Geo repository  
 
 ```bash
 zypper ar -f https://download.opensuse.org/repositories/Application:/Geo/openSUSE_Leap_${version} Application:Geo
 ```
 
-3. Install JOSM
+3. Install JOSM  
 
 ```bash
 zypper install josm josm-fonts
@@ -93,7 +93,7 @@ zypper install josm josm-fonts
 
 **Use this only when the steps in "Ubuntu, Debian and derivatives" don't work for you.**
 
-1. Get codename of your debian installation
+1. Get codename of your debian installation  
 
 ```bash
 codename=`cat /etc/os-release | grep "VERSION_CODENAME"`
@@ -101,19 +101,19 @@ codename=${codename/VERSION_CODENAME=/}
 codename=${codename//\"/}
 ```
 
-2. Add backports repository
+2. Add backports repository  
 
 ```bash
 echo "deb http://deb.debian.org/debian ${codename}-backports main" > /etc/apt/sources.list.d/backports.list
 ```
 
-3. Update sources
+3. Update sources  
 
 ```bash
 apt update
 ```
 
-4. Install JOSM from backports
+4. Install JOSM from backports  
 
 ```bash
 apt install josm/${codename}-backports
