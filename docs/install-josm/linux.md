@@ -38,44 +38,44 @@ Alternatively you can use your software center if it's set up for Flatpak.
 
 1. Register the official JOSM repository
 
-   ```bash
-   echo "deb https://josm.openstreetmap.de/apt alldist universe" > /etc/apt/sources.list.d/josm.list
-   ```
+ ```bash
+ echo "deb https://josm.openstreetmap.de/apt alldist universe" > /etc/apt/sources.list.d/josm.list
+ ```
    
 2. Register the public key of that repository<br/>
-using `wget`
+using `wget`\
 
-   ```bash
-   wget -q https://josm.openstreetmap.de/josm-apt.key -O- > /etc/apt/trusted.gpg.d/josm.gpg
-   ```
+ ```bash
+ wget -q https://josm.openstreetmap.de/josm-apt.key -O- > /etc/apt/trusted.gpg.d/josm.gpg
+ ```
 
-   or using `curl`
+ or using `curl`
 
-   ```bash
-   curl https://josm.openstreetmap.de/josm-apt.key > /etc/apt/trusted.gpg.d/josm.gpg
-   ```
+ ```bash
+ curl https://josm.openstreetmap.de/josm-apt.key > /etc/apt/trusted.gpg.d/josm.gpg
+ ```
 
 3. Refresh the sources
 
-   ```bash
-   sudo apt update
-   ```
+ ```bash
+ sudo apt update
+ ```
 
 4. Install JOSM
 
-   ```bash
-   sudo apt install josm
-   ```
+ ```bash
+ sudo apt install josm
+ ```
 
 ### OpenSUSE
 
 1. Grab the version
 
-   ```bash
-   version=`cat /etc/os-release | grep "VERSION_ID"`
-   version=${version/VERSION_ID=/}
-   version=${version//\"/}
-   ```
+ ```bash
+ version=`cat /etc/os-release | grep "VERSION_ID"`
+ version=${version/VERSION_ID=/}
+ version=${version//\"/}
+ ```
 
 2. Add Geo repository
 
