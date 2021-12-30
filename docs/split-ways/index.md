@@ -1,6 +1,4 @@
-# Documentation
-
-## Split a way into two or more
+# Split a way into two or more
 
 Spliting ways (cuting one way into two or more) can be necessary when adding a relation that follows the way just for some while and **not** till the end. Adding the way to a relation without spliting it can have unwanted side effects. Spliting a way is also necessary when tags aren't consistent on the way (From position A to position B the tags differ from those from position C to position D).
 

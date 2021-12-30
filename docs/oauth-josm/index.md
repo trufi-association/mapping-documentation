@@ -1,6 +1,4 @@
-# Documentation
-
-## How to link your OpenStreetMap account to JOSM
+# How to link your OpenStreetMap account to JOSM
 
 Today we're going to link JOSM with your OSM account so you can upload changes from inside JOSM which we all extremely want. Perhaps the configuration for this has been done by your community by letting you set up the [JOSM configuration file](../installing-mapping-tool/index.md) or doing it for you. Just follow the instructions here when said so otherwise you might damage something.
 
