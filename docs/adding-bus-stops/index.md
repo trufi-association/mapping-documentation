@@ -6,13 +6,15 @@ It's a great day to map bus stops and waiting passengers position. But first let
 
 ### Differences between bus stops and waiting platforms
 
+![](./bus-stop_waiting-platform-model/out.png)
+
 Bus stops and waiting platforms are different things. They look the same but let us take a closer look to see that they aren't the same.
 
-A bus stop is the position where a bus **stops** and **not** where passengers are waiting:![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Pr%C5%AFmyslov%C3%A1_str3%2C_Prague_%C5%A0t%C4%9Brboholy.jpg/782px-Pr%C5%AFmyslov%C3%A1_str3%2C_Prague_%C5%A0t%C4%9Brboholy.jpg)
+A bus stop is the position where a bus **stops** and **not** where passengers are waiting:![](./bus-stop/out.png)
 
 You see the bus is **stopping on the road and not on the sidewalk.** Bus stops are usually mapped as a node on the road itself.
 
-On the other site we have the position where passengers are waiting. Of course **passengers are not waiting on the road, they are waiting on the sidewalk or a dedicated waiting platform**:![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Bayview_trstwy.jpg/800px-Bayview_trstwy.jpg)
+On the other site we have the position where passengers are waiting. Of course **passengers are not waiting on the road, they are waiting on the sidewalk or a dedicated waiting platform**:![](./waiting-platform/out.png)
 
 The bus here is stopping on the bus stop position on the road like in the picture from above. Next to the bus stop position (or the bus itself) you see the sidewalk/waiting platform where passengers are actually waiting. A waiting platform can have also one or more shelters as you can see on the picture on the right middle site.
 
@@ -20,7 +22,7 @@ The bus here is stopping on the bus stop position on the road like in the pictur
 
 ### Mapping bus stop
 
-Skip this step when your community decided not to map the position on the road where a bus stops. We assume that you already opened JOSM and went to the position on the map where you want to map a bus stop.![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Pr%C5%AFmyslov%C3%A1_str3%2C_Prague_%C5%A0t%C4%9Brboholy.jpg/313px-Pr%C5%AFmyslov%C3%A1_str3%2C_Prague_%C5%A0t%C4%9Brboholy.jpg)
+Skip this step when your community decided not to map the position on the road where a bus stops. We assume that you already opened JOSM and went to the position on the map where you want to map a bus stop.![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Pr%C5%AFmyslov%C3%A1_str3%2C_Prague_%C5%A0t%C4%9Brboholy.jpg/313px-Pr%C5%AFmyslov%C3%A1_str3%2C_Prague_%C5%A0t%C4%9Brboholy.jpg) <img src="./bus-stop/out.png" style="zoom:40%;" />
 
 **ToDo:** Document the steps that need to be performed.
 
@@ -28,7 +30,7 @@ Skip this step when your community decided not to map the position on the road w
 
 Skip this step when your community decided to just map the bus stop position on the road. We assume that you already opened JOSM and went to the position on the map where you want to map a waiting area for passengers.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Bayview_trstwy.jpg/320px-Bayview_trstwy.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Bayview_trstwy.jpg/320px-Bayview_trstwy.jpg)<img src="./waiting-platform/out.png" style="zoom:40%;" />
 
 1. In the map edit view click the _drawing node/way_ symbol (highlighted red in the picture): ![](josm-editor-addnote/out.png)
 

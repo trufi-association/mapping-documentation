@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="out.svg"
+   inkscape:export-filename="/mnt/My_files/private/Documents/Trufi Association/Docs/mapping-documentation/docs/adding-bus-stops/bus-stop_waiting-platform-model/out.png"
+   inkscape:export-xdpi="117.323"
+   inkscape:export-ydpi="117.323"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#d1d1d1"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     objecttolerance="1"
+     inkscape:zoom="0.94074074"
+     inkscape:cx="400.21654"
+     inkscape:cy="468.77953"
+     inkscape:window-width="1360"
+     inkscape:window-height="715"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter31721"
+       x="-0.00049657214"
+       y="-0.0021955476"
+       width="1.0009931"
+       height="1.0043911">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.0022268051"
+         id="feGaussianBlur31723" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter31721-1"
+       x="-8.9382704e-05"
+       y="-0.0015537721"
+       width="1.0001788"
+       height="1.0031075">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.0022268051"
+         id="feGaussianBlur31723-0" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.71888"
+       id="rect846"
+       width="270.42554"
+       height="120.66042"
+       x="10.159385"
+       y="53.33543"
+       inkscape:export-filename="/mnt/My_files/private/Documents/Trufi Association/Docs/mapping-documentation/docs/adding-bus-stops/waiting-platform/out.png"
+       inkscape:export-xdpi="117.323"
+       inkscape:export-ydpi="117.323" />
+    <rect
+       style="fill:#979797;fill-opacity:1;stroke:none;stroke-width:1.665"
+       id="rect1126"
+       width="245.08618"
+       height="33.423279"
+       x="22.734888"
+       y="130.36569" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.665"
+       id="rect1670"
+       width="41.086872"
+       height="2.8018889"
+       x="31.128414"
+       y="146.59586" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.665"
+       id="rect1670-3"
+       width="41.086872"
+       height="2.8018889"
+       x="118.2528"
+       y="146.59599" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.665"
+       id="rect1670-3-7"
+       width="41.086872"
+       height="2.8018889"
+       x="202.6833"
+       y="146.59599" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.665;stroke-miterlimit:4;stroke-dasharray:1.665, 1.665;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2013"
+       width="67.354797"
+       height="10.359427"
+       x="58.286732"
+       y="133.12506" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:0;font-family:sans-serif;letter-spacing:2.07217px;word-spacing:0px;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter31721)"
+       x="62.175583"
+       y="140.23184"
+       id="text8301"
+       transform="matrix(1.7028401,0,0,1.7028401,-42.168013,-98.584943)"><tspan
+         sodipodi:role="line"
+         id="tspan8299"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'URW Bookman';-inkscape-font-specification:'URW Bookman';opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+         x="62.175583"
+         y="140.23184"
+         dx="0">Bus</tspan></text>
+    <ellipse
+       style="opacity:1;fill:#2547ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.628103;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path43725"
+       cx="61.607719"
+       cy="138.39293"
+       rx="1.6143994"
+       ry="1.4283936" />
+    <rect
+       style="opacity:1;fill:#2547ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.797748;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect46382"
+       width="109.00315"
+       height="18.832453"
+       x="50.515259"
+       y="109.79401"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:0;font-family:sans-serif;letter-spacing:2.07217px;word-spacing:0px;mix-blend-mode:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter31721-1)"
+       x="62.175583"
+       y="140.23184"
+       id="text8301-6"
+       transform="matrix(1.7028401,0,0,1.7028401,-51.651712,-117.81022)"><tspan
+         sodipodi:role="line"
+         id="tspan8299-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'URW Bookman';-inkscape-font-specification:'URW Bookman';opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+         x="62.175583"
+         y="140.23184">Waiting platform</tspan></text>
+  </g>
+</svg>
