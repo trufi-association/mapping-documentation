@@ -1,8 +1,8 @@
-site_name: Mapping Routes
-site_author: Sören Reinecke alias Valor Naram
+site_name: Mapping Bus Routes
+site_author: Trufi Association e.V.
 repo_url: https://github.com/trufi-association/mapping-documentation
-repo_name: mapping-documentation
-site_description: Documentation for communities along the Trufi Association stream who need to map bus routes for OpenStreetMap.
+repo_name: mapping-bus-documentation
+site_description: This tutorial collection curated by Trufi Association e.V. aims to make bus route mapping for OpenStreetMap easier using J0SM to enable communities to document their public transportation systems digitally.
 
 theme: readthedocs
 
